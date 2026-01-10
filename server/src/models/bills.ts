@@ -23,12 +23,12 @@ export interface BillPayment {
   recurring_bill?: RecurringBill;
 }
 
-interface BillRow extends RecurringBill {
+interface BillRow extends Omit<RecurringBill, 'category' | 'is_active'> {
   category: string;
   is_active: number;
 }
 
-interface PaymentRow extends BillPayment {
+interface PaymentRow extends Omit<BillPayment, 'recurring_bill'> {
   recurring_bill: string | null;
 }
 

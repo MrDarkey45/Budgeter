@@ -38,12 +38,14 @@ cd budgeter
 npm install
 ```
 
-### Running the Application
+## Running the Application
 
 ```bash
 # Start both frontend and backend
 npm run dev
 ```
+
+Open http://localhost:5173 in your browser.
 
 Or run them separately:
 
@@ -53,13 +55,6 @@ npm run dev:server
 
 # Frontend only (http://localhost:5173)
 npm run dev:client
-```
-
-### Building for Production
-
-```bash
-npm run build
-npm start
 ```
 
 ## Project Structure

@@ -19,7 +19,7 @@ export interface TransactionFilters {
   type?: 'income' | 'expense';
 }
 
-interface TransactionRow extends Transaction {
+interface TransactionRow extends Omit<Transaction, 'category'> {
   category: string;
 }
 

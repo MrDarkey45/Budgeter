@@ -1,6 +1,11 @@
 node_modules/
 dist/
+dist-electron/
 .env
 *.db
 *.log
 .DS_Store
+
+# Electron
+electron/icons/*.icns
+electron/icons/*.ico

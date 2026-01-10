@@ -17,7 +17,7 @@ export interface BudgetSummary {
   percentage: number;
 }
 
-interface BudgetRow extends Budget {
+interface BudgetRow extends Omit<Budget, 'category'> {
   category: string;
 }
 

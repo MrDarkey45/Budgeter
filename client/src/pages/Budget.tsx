@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import { format, addMonths, subMonths, parseISO, startOfMonth } from 'date-fns';
+import { format, addMonths, subMonths, startOfMonth } from 'date-fns';
 import { getBudgetSummary, setBudget, getCategories } from '../services/api';
 import type { BudgetSummary, Category } from '../types';
 
